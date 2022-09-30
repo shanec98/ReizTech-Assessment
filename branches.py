@@ -15,7 +15,7 @@ def getDepth(node):
     return max([getDepth(branch) for branch in node.branches], default=0) + 1
 
 def main():
-    #constructing a sample tree with depth of 4
+    #constructing a sample tree with depth of 5
     base_node = Branch()
     base_node.addBranch()
     base_node.addBranch()
